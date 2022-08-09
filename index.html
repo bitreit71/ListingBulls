@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+	<title>ListingBulls</title>
+</head>
+<body>
+	<div class="popups" id="popups">
+		<div class="popup-1 popup-window" id="myPopup-1" aria-hidden="true">
+			<div class="popups__close" aria-hidden="true">
+				<span></span>
+			</div>
+			<div class="popup-1__container">
+				<div class="popup-1__info">
+					<h3>GET A FREE CONSULTATION</h3>
+					<p>CHOOSE MESSENGER TO CONTACT YOU:</p>
+				</div>
+				<div class="popup-1__soc">
+					<a href="#" target="_blank"><img src="img/icons/tg.png" alt="" class="popup-1__tg"></a>
+					<a href="#" target="_blank"><img src="img/icons/mail.png" alt="" class="popup-1__mail" ></a>
+				</div>
+				<div class="popup-1__form-container">
+					<form action="script.php" id="contact" method="post" class="popup-1__form">
+						<input required placeholder="Telegram / E-mail" type="text" id="email" name="email" class="popup-1__input">
+						<input required placeholder="Project name" type="text" id="msg" name="project" class="popup-1__input">
+						<button type="sumbit" id="send" class="popup-1__button">get the consultation</button>
+					</form>					
+				</div>
+			</div>				
+		</div>
+		<div class="popup-2 popup-window" id="myPopup-4" aria-hidden="true">
+			<div class="popups__close" aria-hidden="true">
+				<span></span>
+			</div>			
+			<div class="popup-2__container">
+				<div class="popup-2__info">
+					<h3>NEED HELP WITH IDO/IEO LAUNCH?</h3>
+					<p>CHOOSE MESSENGER TO CONTACT YOU:</p>
+				</div>
+				<div class="popup-2__soc">
+					<a href="#" target="_blank"><img src="img/icons/tg.png" alt="" class="popup-2__tg"></a>
+					<a href="#" target="_blank"><img src="img/icons/mail.png" alt="" class="popup-2__mail"></a>
+				</div>
+				<div class="popup-2__form-container">
+					<form action="script.php" id="contact" method="post" class="popup-2__form">
+						<input required placeholder="Telegram / E-mail" type="text" id="email" name="email" class="popup-2__input">
+						<input required placeholder="Project name" type="text" id="msg" name="project" class="popup-2__input">
+						<button type="sumbit" id="send" class="popup-2__button">contact me</button>
+					</form>					
+				</div>
+			</div>				
+		</div>
+		<div class="popup-3 popup-window" id="myPopup-3" aria-hidden="true">
+			<div class="popups__close" aria-hidden="true">
+				<span></span>
+			</div>			
+			<div class="popup-3__container">
+				<div class="popup-3__info">
+					<h3>HAVE ANY QUESTIONS?</h3>
+					<p>CHOOSE MESSENGER TO CONTACT YOU:</p>
+				</div>
+				<div class="popup-3__soc">
+					<a href="#" target="_blank"><img src="img/icons/tg.png" alt="" class="popup-3__tg"></a>
+					<a href="#" target="_blank"><img src="img/icons/mail.png" alt="" class="popup-3__mail"></a>
+				</div>
+				<div class="popup-3__form-container">
+					<form action="script.php" id="contact" method="post" class="popup-3__form">
+						<input required placeholder="Telegram / E-mail" type="text" id="email" name="email" class="popup-3__input">
+						<input required placeholder="Project name" type="text" id="msg" name="project" class="popup-3__input">
+						<button type="sumbit" id="send" class="popup-3__button">get the consultation</button>
+					</form>					
+				</div>
+			</div>				
+		</div>
+		<div class="popup-4 popup-window" id="myPopup-2" aria-hidden="true">
+			<div class="popups__close" aria-hidden="true">
+				<span></span>
+			</div>			
+			<div class="popup-4__container">
+				<div class="popup-4__info">
+					<h3>WANT TO BE LISTED ON AN EXCHANGE?</h3>
+					<p>CHOOSE MESSENGER TO CONTACT YOU:</p>
+				</div>
+				<div class="popup-4__soc">
+					<a href="#" target="_blank"><img src="img/icons/tg.png" alt="" class="popup-4__tg"></a>
+					<a href="#" target="_blank"><img src="img/icons/mail.png" alt="" class="popup-4__mail"></a>
+					</div>
+				<div class="popup-4__form-container">
+					<form action="script.php" id="contact" method="post" class="popup-4__form">
+						<input required placeholder="Telegram / E-mail" type="text" id="email" name="email" class="popup-4__input">
+						<input required placeholder="Project name" type="text" id="msg" name="project" class="popup-4__input">
+						<button type="sumbit" id="send" class="popup-4__button">contact me</button>
+					</form>					
+				</div>
+			</div>				
+		</div>	
+		<div class="popup-5 popup-window" id="myPopup-5" aria-hidden="true">
+			<div class="popup-5__container">
+				<div class="popup-5__info">
+					<h3>Thank you partner!</h3>
+					<p>We will soon get in touch with you.</p>
+				</div>
+				<div class="popup-5__img-container">
+					<img src="img/people.png" alt="" class="popup-5__img">
+				</div>
+			</div>				
+		</div>										
+	</div>	
+	<img src="img/bg/bg-body.png" alt="" class="body-background">
+	<header>
+		<div class="header" id="headerScroll">
+			<section class="header__container">
+				<div class="header__block-1">
+					<div class="header__logo-container">
+						<a href="index.html">
+							<img src="img/logos/logo-1.png" alt="" class="header__logo-1">
+							<img src="img/logos/logo-2.png" alt="" class="header__logo-2">							
+						</a>				
+					</div>						
+				</div>
+				<div class="header__block-2">
+					<button class="header__button" id="openMyPopup" data-popup="myPopup" onClick="openPopup('#myPopup-4', event)" aria-controls="myPopup-3" aria-label="Open popup">Order Listing</button>					
+				</div>
+			</section>
+		</div>
+	</header>
+	<main>
+		<section class="general">					
+			<div class="general__container">			
+				<div class="general__content">s
+					<h1>LISTING ON EXCHANGES</h1>
+					<div class="general__blocks">
+						<div class="general__block-1">
+							<div class="general__block-container">
+								Save up to <span>$300,000</span>
+							</div>
+							<p>on listing process</p>
+						</div>
+						<div class="general__block-2">
+							<div class="general__block-container">
+								Get listed <span>2x sooner,</span>
+							</div>
+							<p>from 3 days</p>
+						</div>						
+					</div>
+					<button href="#" class="general__button btn-13" id="openMyPopup" data-popup="myPopup" onClick="openPopup('#myPopup-1', event)" aria-controls="myPopup-1" aria-label="Open popup">Get free consult</button>
+				</div>
+			</div>
+		</section>
+		<section class="services">
+			<h2>Why choose <span>ListingBulls</span> for crypto exchange listing services</h2>
+			<div class="services__container">
+				<div class="services__lists-container">
+					<div class="services__top-block">
+						<div class="services__list-block">
+							<div class="services__left">
+								<img src="img/icons/img-1.png" alt="" class="services__img">
+							</div>
+							<div class="services__right">
+								<p class="services__text-1">Turnkey listing services</p>		
+							</div>
+						</div>
+						<div class="services__list-block">
+							<div class="services__left">
+								<img src="img/icons/img-2.png" alt="" class="services__img">
+							</div>
+							<div class="services__right">
+								<p class="services__text-2">Priority listing process</p>		
+							</div>
+						</div>
+						<div class="services__list-block">
+							<div class="services__left">
+								<img src="img/icons/img-3.png" alt="" class="services__img">
+							</div>
+							<div class="services__right">
+								<p class="services__text-3">Prices lower than official</p>		
+							</div>
+						</div>	
+					</div>
+					<div class="services__center-block">
+						<div class="services__list-block">
+							<div class="services__left">
+								<img src="img/icons/img-4.png" alt="" class="services__img">
+							</div>
+							<div class="services__right">
+								<p class="services__text-4">Personal contact with top management of exchanges</p>		
+							</div>
+						</div>
+						<div class="services__list-block">
+							<div class="services__left">
+								<img src="img/icons/img-5.png" alt="" class="services__img">
+							</div>
+							<div class="services__right">
+								<p class="services__text-5">Free extra promotion on exchanges</p>		
+							</div>
+						</div>
+						<div class="services__list-block">
+							<div class="services__left">
+								<img src="img/icons/img-6.png" alt="" class="services__img">
+							</div>
+							<div class="services__right">
+								<p class="services__text-6">24/7 top manager support</p>		
+							</div>
+						</div>							
+					</div>
+					<div class="services__botton-block">
+						<div class="services__list-block">
+							<div class="services__left">
+								<img src="img/icons/img-7.png" alt="" class="services__img">
+							</div>
+							<div class="services__right">
+								<p class="services__text-7">Listing on 100+ leading exchanges</p>		
+							</div>
+						</div>
+						<div class="services__list-block-end">
+							<div class="services__left">
+								<img src="img/icons/img-8.png" alt="" class="services__img">
+							</div>
+							<div class="services__right">
+								<p class="services__text-8">IDO/IEO launch</p>		
+							</div>
+						</div>							
+					</div>
+					<button class="services__button btn-13" id="openMyPopup" data-popup="myPopup" onClick="openPopup('#myPopup-1', event)" aria-controls="myPopup-2" aria-label="Open popup">Get free consult</button> 					
+				</div>
+			</div>
+		</section>
+		<section class="logos">
+			<h2>Let’s get your crypto project listed on <span>100+ Leading Exchanges</span></h2>
+			<div class="logos__container-1">
+				<div class="logos__block-1">
+					<img src="img/logos/logos-img_1.png" alt="" class="logos-img">
+					<img src="img/logos/logos-img_2.png" alt="" class="logos-img">
+					<img src="img/logos/logos-img_3.png" alt="" class="logos-img">
+					<img src="img/logos/logos-img_4.png" alt="" class="logos-img">
+					<img src="img/logos/logos-img_5.png" alt="" class="logos-img">
+				</div>
+				<div class="logos__block-2">
+					<img src="img/logos/logos-img_6.png" alt="" class="logos-img">
+					<img src="img/logos/logos-img_7.png" alt="" class="logos-img">
+					<img src="img/logos/logos-img_8.png" alt="" class="logos-img">
+					<img src="img/logos/logos-img_9.png" alt="" class="logos-img">
+					<img src="img/logos/logos-img_10.png" alt="" class="logos-img">
+				</div>
+				<div class="logos__block-3">
+					<img src="img/logos/logos-img_11.png" alt="" class="logos-img">
+					<img src="img/logos/logos-img_12.png" alt="" class="logos-img">
+					<img src="img/logos/logos-img_13.png" alt="" class="logos-img">
+					<img src="img/logos/logos-img_14.png" alt="" class="logos-img">
+					<img src="img/logos/logos-img_15.png" alt="" class="logos-img">
+				</div>
+				<div class="logos__block-4">
+					<img src="img/logos/logos-img_16.png" alt="" class="logos-img">
+					<img src="img/logos/logos-img_17.png" alt="" class="logos-img">
+					<img src="img/logos/logos-img_18.png" alt="" class="logos-img">
+					<img src="img/logos/logos-img_19.png" alt="" class="logos-img">
+					<img src="img/logos/logos-img_20.png" alt="" class="logos-img">
+				</div>												
+			</div>
+			<div class="logos__container-2">
+				<div class="logos__block-1">
+					<img src="img/logos/logos-img_1.png" alt="" class="logos-img">
+					<img src="img/logos/logos-img_2.png" alt="" class="logos-img">
+					<img src="img/logos/logos-img_3.png" alt="" class="logos-img">
+				</div>
+				<div class="logos__block-2">
+					<img src="img/logos/logos-img_4.png" alt="" class="logos-img">
+					<img src="img/logos/logos-img_5.png" alt="" class="logos-img">
+					<img src="img/logos/logos-img_6.png" alt="" class="logos-img">					
+				</div>					
+				<div class="logos__block-3">
+					<img src="img/logos/logos-img_7.png" alt="" class="logos-img">
+					<img src="img/logos/logos-img_8.png" alt="" class="logos-img">
+					<img src="img/logos/logos-img_9.png" alt="" class="logos-img">
+				</div>
+				<div class="logos__block-4">
+					<img src="img/logos/logos-img_16.png" alt="" class="logos-img">
+					<img src="img/logos/logos-img_17.png" alt="" class="logos-img">
+					<img src="img/logos/logos-img_18.png" alt="" class="logos-img">
+				</div>				
+			</div>
+			<div class="logos__container-3">
+				<div class="logos__block-top">
+					<img src="img/logos/logos-img_1.png" alt="" class="logos-img">
+					<img src="img/logos/logos-img_2.png" alt="" class="logos-img">
+					<img src="img/logos/logos-img_4.png" alt="" class="logos-img">
+					<img src="img/logos/logos-img_5.png" alt="" class="logos-img">									
+				</div>	
+				<div class="logos__block-bottom">			
+					<img src="img/logos/logos-img_7.png" alt="" class="logos-img">
+					<img src="img/logos/logos-img_8.png" alt="" class="logos-img">
+					<img src="img/logos/logos-img_16.png" alt="" class="logos-img">
+					<img src="img/logos/logos-img_17.png" alt="" class="logos-img">
+				</div>				
+			</div>			
+			<h3>+80 leading exchanges</h3>
+			<button class="logos__button btn-13" id="openMyPopup" data-popup="myPopup" onClick="openPopup('#myPopup-2', event)" aria-controls="myPopup-3" aria-label="Open popup">Order Listing</button>
+
+		</section>
+		<section class="ques">
+
+			<h2>Are you preparing for IDO/IEO launch?</h2>
+			<p class="ques__description">Let us take care and make the process effortless for you to work on making your product best on the crypto market</p>
+			<div class="ques__container">
+				<div class="ques__top">
+					<div class="ques__block-left">
+						<p><span>24/7</span> support on all stages of the launch</p>
+					</div>
+					<div class="ques__block-right">
+						<p class="cheaper">Cheaper & faster listing</p>
+					</div>
+				</div>
+				<div class="ques__bottom">
+					<div class="ques__block-big">
+						<p>Help with marketing and promotion to grow the community and raise the liquidity of the asset</p>
+					</div>
+				</div>
+			</div>
+			<button href="#" class="logos__button btn-13" id="openMyPopup" data-popup="myPopup" onClick="openPopup('#myPopup-4', event)" aria-controls="myPopup-3" aria-label="Open popup">Order Launch</button>
+		</section>
+		<section class="form-data_1">
+			<div class="form-data__container">
+				<div class="form-data__info">
+					<h3>Get the full price list</h3>
+					<p>Leave your e-mail and we will send you the full price list for our services</p>
+				</div>
+				<div class="form-data__form-container">
+					<form action="script.php" id="contact" method="post" class="popup-4__form">
+						<input required placeholder="Telegram / E-mail" type="text" id="email" name="email" class="popup-4__input">
+						<input required placeholder="Project name" type="text" id="msg" name="project" class="popup-4__input">
+						<button type="sumbit" id="send" class="popup-4__button">get the price list</button>
+					</form>			
+				</div>
+			</div>
+		</section>
+		<section class="questions">
+			<div class="questions__container">
+				<div class="questions__top">
+					<div class="questions__left-text">
+						<h2>Frequently <span>asked</span> questions</h2>				
+					</div>
+					<div class="questions__right-img">
+						<img src="img/ques.png" alt="" class="questions__img">						
+					</div>
+				</div>
+				<div class="questions__bottom">
+					<div class="questions__top-info">
+						<div class="questions__left-block">
+							<p class="questions__number">01.</p>
+							<h3 class="questions__title-1">How will our cooperation look like?</h3>
+							<p class="questions__description">After you leave the request for free consult, we will contact you and ask few questions regarding your project. After a brief review of your project we will prepare a special offer for you, based on your needs and goals. Then after agreement is signed and payment is made, we will start listing process. We provide 24/7 top management support for you and your project during the whole process</p>
+						</div>
+						<div class="questions__right-block">
+							<p class="questions__number">02.</p>
+							<h3 class="questions__title-2">Why should i work with you instead of contacting the exchange directly?</h3>
+							<p class="questions__description">The exchange’s respond will take a very long time. And even if the listing is approved, the process will last for months.
+							We list our clients without a queue and for the lower price than the official because of the direct contact with top management of exchanges</p>
+						</div>						
+					</div>
+					<div class="questions__bottom-info">
+						<div class="questions__left-block">
+							<p class="questions__number">03.</p>
+							<h3 class="questions__title-3">what are the guarantees of listing?</h3>
+							<p class="questions__description">In most cases we guarantee the successful listing because of personal contact with the head management of exchanges. With all of our clients we sign agreements and connect them with the top management of exchanges for signing of a direct contract</p>
+						</div>
+						<div class="questions__right-block">
+							<p class="questions__number">04.</p>
+							<h3 class="questions__title-4">what are the other advantages working with you?</h3>
+							<p class="questions__description">Projects get the listing on turnkey basis, the priority listing, free listing announcement on the main page of an exchange and banner, direct connection with the head management of exchanges and also discounts if listing on several exchanges at the time</p>
+						</div>						
+					</div>					
+				</div>
+			</div>
+			<button href="#" class="questions__button btn-13" id="openMyPopup" data-popup="myPopup" onClick="openPopup('#myPopup-1', event)" aria-controls="myPopup-4" aria-label="Open popup">Get free consult</button>
+		</section>
+		<section class="form-data_2">
+			<div class="form-data__container">
+				<div class="form-data__info">
+					<h3>Contact us for free consult</h3>
+					<p>Leave your e-mail and we will contact you shortly</p>
+				</div>
+				<div class="form-data__form-container">
+					<form action="script.php" id="contact" method="post" class="popup-4__form">
+						<input required placeholder="Telegram / E-mail" type="text" id="email" name="email" class="popup-4__input">
+						<input required placeholder="Project name" type="text" id="msg" name="project" class="popup-4__input">
+						<button type="sumbit" id="send" class="popup-4__button">get the consultation</button>
+					</form>				
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<section class="footer">
+			<div class="footer__container">
+				<div class="footer__left-block">
+					<img src="img/logos/logo-1.png" alt="" class="footer__logo">
+					<p>© 2022 all rights reserved</p>
+				</div>
+				<div class="footer__right-block">
+					<div class="footer__telegram">
+						<img src="img/icons/tg.png" alt="" class="footer__telegram-img">
+						<a href="#" class="footer__telegram-link">MyTelegram</a>
+					</div>
+					<div class="footer__email">
+						<img src="img/icons/mail.png" alt="" class="footer__email-img">
+						<a href="#" class="footer__email-link">info@email.com</a>
+					</div>					
+				</div>
+			</div>	
+		</section>
+	</footer>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
